@@ -1,0 +1,205 @@
+body {
+    background: white;
+    border: 2px solid black;
+    width: 900px;
+}
+
+/*.wrapper { 
+  border : 2px solid #000; 
+    overflow:hidden;
+    height: 48px;
+    width: auto;
+}*/
+
+header {
+    overflow: hidden;
+    background-color: #1E90FF;
+    padding: 0px;
+    margin: auto;
+    position: fixed;
+    width: 900px;
+}
+
+header a.name {
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 15px;
+    border-radius: 2px;
+
+}
+
+.header-list {
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+/*.wrapper div {
+   height: 200px;
+   padding: 10px;
+}*/
+
+/*@media screen and (max-width: 900px) {
+    #one {
+        float: left;
+        margin: 5px 5px 5px 5px;
+        width: 300px;
+        
+    }
+}*/
+
+.two {
+    float: center;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    overflow: hidden;
+    margin: auto;
+    /*  border:2px dashed #ccc;*/
+    height: 130px;
+    font-size: 20px;
+    width: 500px;
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+    background: #00BFFF;
+    color: black;
+}
+
+/*
+#box{
+    background: white;
+}*/
+
+.container-skill {
+    /* float: left;*/
+    width: 900px;
+    /*border: 1px solid black;*/
+    margin: 0 auto;
+    height: 50px;
+}
+
+.box1 {
+    padding: 5px;
+    float: left;
+    width: 300px;
+    height: inherit;
+    /*background-color: white;*/
+}
+
+.box2 {
+    float: left;
+    width: 290px;
+    height: inherit;
+}
+
+.box3 {
+    float: right;
+    width: 300px;
+    height: inherit;
+}
+
+.container-expert {
+    float: left;
+    width: 900px;
+    margin: 0 auto;
+    height: 150px;
+
+}
+
+.box4 {
+    margin: auto;
+    padding-left: 5px;
+    float: left;
+    background-color: white;
+    width: 285px;
+    height: inherit;
+    
+}
+
+.box5 {
+    padding-left: 10px;
+    margin: auto;
+    float: left;
+    background-color: white;
+    width: 280px;
+    height: inherit;
+   
+}
+
+.box6 {
+    padding-left: 10px;
+    margin: auto;
+    float: left;
+    background-color: white;
+    width: 310px;
+    height: inherit;
+   
+}
+
+.logo {
+    padding: 5px;
+    margin: auto;
+    float: center;
+    width: 900px;
+    filter: alpha(opacity=100);
+
+}
+
+.container-form {
+    padding-left: 10px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: white;
+
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer{
+    text-align: center;
+}
+
+h3{
+    margin-left: 5px;
+}
+
+p{
+    margin-left: 5px;
+}
